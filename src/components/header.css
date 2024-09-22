@@ -1,0 +1,19 @@
+/* header.css */
+.menu {
+  position: relative;
+  /* Initially hidden above the viewport */
+  transition: top 0.3s ease-in-out, background-color 0.3s;
+}
+
+.menu1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: top 0.3s ease-in-out, background-color 0.3s;
+}
+
+
+
+
